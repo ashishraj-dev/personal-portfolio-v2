@@ -1,57 +1,49 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+// import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 
 export const links = [
-  { id: nanoid(), href: '#home', text: 'home' },
-  { id: nanoid(), href: '#skills', text: 'skills' },
   { id: nanoid(), href: '#about', text: 'about' },
+  { id: nanoid(), href: '#skills', text: 'skills' },
   { id: nanoid(), href: '#projects', text: 'projects' },
-];
-
-export const skills = [
-  {
-    id: nanoid(),
-    title: 'HTML&CSS',
-    icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
-  },
-  {
-    id: nanoid(),
-    title: 'Javascript',
-    icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
-  },
-  {
-    id: nanoid(),
-    title: 'React',
-    icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
-  },
+  { id: nanoid(), href: '#experience', text: 'experience' },
+  { id: nanoid(), href: '#contact', text: 'contact' },
 ];
 
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    title: 'Factzzz',
+    desc: 'A Fact-Sharing Web Application that allows users to explore, submit, and vote on interesting facts, with category-based filtering, voting mechanisms, and a dispute-flagging feature.',
+    img: '/src/assets/p1.png',
+    live: 'https://factzzz.netlify.app',
+    github: 'https://github.com/ashishraj-dev/react-factzzz',
+    tech: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React', 'Supabase'],
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    title: 'Wisewords',
+    desc: 'An Advice Generator Web App built with React that fetches random advice from an external API, featuring a dynamic view counter, reusable components, and a responsive, mobile-first UI with smooth transitions and custom branding.',
+    img: '/src/assets/p2.png',
+    live: 'https://wisewords1.netlify.app/',
+    github: 'https://github.com/ashishraj-dev/wisewords',
+    tech: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React', 'React Hooks'],
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    title: 'Aurora.Scape',
+    desc: 'An Aurora tourism website with a mobile-first layout, featuring sticky navigation, animated scroll effects, custom components (slider, news grid, marquee, scroll-to-top button), and a demo booking form with client-side validation.',
+    img: '/src/assets/p3.png',
+    live: 'https://aurora-scape1.netlify.app/',
+    github: 'https://github.com/ashishraj-dev/aurora.scape',
+    tech: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'AOS Library'],
+  },
+  {
+    id: nanoid(),
+    title: 'Dice Duel',
+    desc: 'A two-player dice game with turn-based play, score tracking, win conditions, and confetti effects, featuring player name customization, glassmorphism UI, modal dialogs, victory animations, and a reset option for enhanced user experience.',
+    img: '/src/assets/p4.png',
+    live: 'https://dice-duel1.netlify.app/',
+    github: 'https://github.com/ashishraj-dev/ludo-game',
+    tech: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'tsParticles Library'],
   },
 ];
