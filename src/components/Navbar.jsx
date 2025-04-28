@@ -105,6 +105,18 @@ const Navbar = () => {
   const navbarRef = useRef(null);
 
   useEffect(() => {
+    // Add scroll listener when menu is open
+    if (isOpen) {
+      const handleScroll = () => {
+        setIsOpen(false);
+      };
+
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }
+  }, [isOpen]);
+
+  useEffect(() => {
     const handleClickOutside = e => {
       if (menuRef.current && !menuRef.current.contains(e.target) && !navbarRef.current.contains(e.target)) {
         setIsOpen(false);
