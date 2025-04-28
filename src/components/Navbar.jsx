@@ -136,7 +136,7 @@ const Navbar = () => {
         <a href="#" className="no-underline">
           {' '}
           <img
-            src="/src/assets/AR-Logo-w.png"
+            src="/assets/AR-Logo-w.png"
             alt="AR-logo-image"
             className="w-20 h-12 max-sm:w-15 max-sm:h-9 drop-shadow-xl/300"
           />
