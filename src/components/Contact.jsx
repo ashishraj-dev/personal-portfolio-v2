@@ -192,6 +192,22 @@ const Contact = () => {
                   {' '}
                   <div className="flex">
                     <a
+                      href="https://www.linkedin.com/in/ashishraj-dev"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-blue-800 duration-300 active:text-blue-800 flex"
+                    >
+                      linkedin
+                      <span className="arrow3">
+                        <MdArrowOutward />
+                      </span>
+                    </a>
+                  </div>
+                </li>
+                <li className="list-disc">
+                  {' '}
+                  <div className="flex">
+                    <a
                       href="https://www.instagram.com/ashish._.draws/"
                       target="_blank"
                       rel="noopener noreferrer"
