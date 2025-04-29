@@ -18,13 +18,16 @@ const Contact = () => {
 
     if (!name || !email || !subject || !message) {
       toast(t => (
-        <span className="flex gap-12">
-          <span className="flex text-red-600">
-            <FaExclamation className="pt-1" /> <strong>Please fill all fields</strong>
+        <span className="flex gap-10">
+          <span className="flex text-red-600 items-center">
+            <FaExclamation /> <strong>Please fill all fields</strong>
           </span>
 
-          <button className="cursor-pointer pl-5" onClick={() => toast.dismiss(t.id)}>
-            Okay?
+          <button
+            className="cursor-pointer rounded-lg px-3 py-1.5 bg-stone-950 text-stone-50 border hover:bg-zinc-900 focus:ring-2 focus:ring-stone-300 transition"
+            onClick={() => toast.dismiss(t.id)}
+          >
+            Dismiss
           </button>
         </span>
       ));
@@ -134,7 +137,7 @@ const Contact = () => {
             <div className="button-wrapper flex max-sm:justify-center">
               <button
                 type="submit"
-                className="relative flex items-center justify-center ml-4 mt-2 w-max min-w-[150px] background-clr hover:white text-stone-100 cursor-pointer font-medium p-2 rounded-lg transition duration-300 transform border-l border-t [box-shadow:4px_4px_0px_0px_rgba(255,255,255,0.75)] hover:scale-105 active:scale-105"
+                className="relative flex items-center justify-center ml-4 mt-2 w-max min-w-[150px] background-clr text-stone-100 cursor-pointer font-medium p-2 rounded-lg transition duration-300 transform border-l border-t focus:border-0 active:border-0 [box-shadow:4px_4px_0px_0px_rgba(255,255,255,0.75)] hover:scale-105 active:scale-110 hover:bg-zinc-900  focus:ring-2 focus:ring-stone-300"
                 disabled={loading}
               >
                 {loading && (
