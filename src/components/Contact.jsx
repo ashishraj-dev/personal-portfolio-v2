@@ -19,8 +19,10 @@ const Contact = () => {
     if (!name || !email || !subject || !message) {
       toast(t => (
         <span className="flex gap-12">
-          <span className='flex text-red-600'><FaExclamation className='pt-1'/> <strong>Please fill all fields</strong></span>
-          
+          <span className="flex text-red-600">
+            <FaExclamation className="pt-1" /> <strong>Please fill all fields</strong>
+          </span>
+
           <button className="cursor-pointer pl-5" onClick={() => toast.dismiss(t.id)}>
             Okay?
           </button>
