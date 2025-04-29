@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import { MdArrowOutward } from 'react-icons/md';
+import { FaExclamation } from 'react-icons/fa';
 import toast from 'react-hot-toast';
 
 const Contact = () => {
@@ -10,6 +11,23 @@ const Contact = () => {
 
   const sendEmail = e => {
     e.preventDefault();
+    const name = form.current['name'].value.trim();
+    const email = form.current['email'].value.trim();
+    const subject = form.current['subject'].value.trim();
+    const message = form.current['message'].value.trim();
+
+    if (!name || !email || !subject || !message) {
+      toast(t => (
+        <span className="flex gap-12">
+          <span className='flex text-red-600'><FaExclamation className='pt-1'/> <strong>Please fill all fields</strong></span>
+          
+          <button className="cursor-pointer pl-5" onClick={() => toast.dismiss(t.id)}>
+            Okay?
+          </button>
+        </span>
+      ));
+      return;
+    }
     setLoading(true);
     emailjs
       .sendForm(
@@ -62,7 +80,7 @@ const Contact = () => {
                 id="name"
                 name="name"
                 autoCorrect="false"
-                required
+                // required
                 placeholder="Enter your name / company's name"
                 className="py-2 pl-2 rounded-lg bg-zinc-900 focus:outline-none"
               />
@@ -74,7 +92,7 @@ const Contact = () => {
               </label>
               <input
                 type="email"
-                required
+                // required
                 id="email"
                 name="email"
                 autoCorrect="false"
@@ -92,7 +110,7 @@ const Contact = () => {
                 id="topic"
                 name="subject"
                 autoCorrect="false"
-                required
+                // required
                 placeholder="Enter your subject"
                 className="py-2 pl-2 rounded-lg bg-zinc-900 focus:outline-none"
               />
