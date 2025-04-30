@@ -155,7 +155,7 @@ const Contact = () => {
 
         <div className="other-contacts w-1/2 flex flex-col max-lg:justify-center max-lg:w-full max-lg:items-center">
           <div className="other-contacts-wrapper max-lg:w-4/5">
-            <div className="text-md  font-medium text-stone-100 mb-3">
+            <div className="text-md font-medium text-stone-100 mb-3">
               <p>You can also connect with me via :</p>
             </div>
             <div className="list-wrapper">
