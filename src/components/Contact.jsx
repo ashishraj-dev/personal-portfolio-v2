@@ -67,14 +67,14 @@ const Contact = () => {
 
       <div className="contact-container w-full flex max-lg:flex-col">
         <div className="form-wrapper w-full flex items-center justify-center flex-col max-lg:mb-10">
-          <div className="text-center font-medium text-neutral-400 mb-5">
+          <div className="text-center font-medium text-neutral-400 mb-5 w-full px-4">
             <p>Fill out the form here to connect with me.</p>
           </div>
 
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="text-neutral-300 w-2/3 max-lg:w-4/5 flex flex-col gap-6"
+            className="text-neutral-300 w-2/3 max-md:w-5/6 max-lg:w-4/5 max-sm:w-6/7 flex flex-col gap-6"
           >
             <div className="flex flex-col">
               <label htmlFor="name" className="mb-1 font-medium text-stone-100">
@@ -153,13 +153,13 @@ const Contact = () => {
           </form>
         </div>
 
-        <div className="other-contacts w-1/2 flex flex-col max-lg:justify-center max-lg:w-full max-lg:items-center">
+        <div className="other-contacts w-1/2 flex flex-col max-lg:w-full max-lg:items-center">
           <div className="other-contacts-wrapper max-lg:w-4/5">
             <div className="text-md font-medium text-stone-100 mb-3">
               <p>You can also connect with me via :</p>
             </div>
             <div className="list-wrapper">
-              <ul className="text-stone-100 w-6/7 max-sm:w-full flex flex-col pl-4">
+              <ul className="text-stone-100 w-6/7 max-sm:w-full flex flex-col ">
                 <li className="list-disc">
                   <span>phone</span>{' '}
                   <a
@@ -183,7 +183,7 @@ const Contact = () => {
                         <MdArrowOutward />
                       </span>
                     </a>
-                    <span className="ml-6.5 max-sm:ml-2 font-medium text-neutral-500">
+                    <span className="ml-6.5 max-sm:ml-1 font-medium text-neutral-500">
                       raj.ashish84091@gmail.com
                     </span>
                   </div>{' '}
