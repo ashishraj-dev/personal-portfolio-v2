@@ -202,6 +202,13 @@ const Contact = () => {
                         <MdArrowOutward />
                       </span>
                     </a>
+                    <a
+                      href="https://www.linkedin.com/in/ashishraj-dev"
+                      className="hover:text-blue-800 duration-300 active:text-blue-800 ml-2.5 max-sm:ml-1 font-medium text-neutral-500"
+                      target="_blank"
+                    >
+                      Ashishraj-dev
+                    </a>
                   </div>
                 </li>
                 <li className="list-disc">
@@ -218,6 +225,13 @@ const Contact = () => {
                         <MdArrowOutward />
                       </span>
                     </a>
+                    <a
+                      href="https://www.instagram.com/ashish._.draws/"
+                      className="hover:text-blue-800 duration-300 active:text-blue-800 max-sm:ml-1 font-medium text-neutral-500"
+                      target="_blank"
+                    >
+                      @ashish._.draws
+                    </a>
                   </div>
                 </li>
                 <li className="list-disc">
@@ -233,6 +247,13 @@ const Contact = () => {
                       <span className="arrow3">
                         <MdArrowOutward />
                       </span>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/ashish._.draws/"
+                      className="hover:text-blue-800 duration-300 active:text-blue-800 ml-2.5 max-sm:ml-1 font-medium text-neutral-500"
+                      target="_blank"
+                    >
+                      @ashu.1313
                     </a>
                   </div>
                 </li>
