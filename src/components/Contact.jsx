@@ -207,7 +207,7 @@ const Contact = () => {
                       className="hover:text-blue-800 duration-300 active:text-blue-800 ml-2.5 max-sm:ml-1 font-medium text-neutral-500"
                       target="_blank"
                     >
-                      Ashishraj-dev
+                      ashishraj-dev
                     </a>
                   </div>
                 </li>
