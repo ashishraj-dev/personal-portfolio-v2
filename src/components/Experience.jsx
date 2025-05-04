@@ -9,7 +9,7 @@ const Experience = () => {
       <article className="flex justify-center items-center m-auto w-1/2 max-lg:w-full max-lg:pl-10 px-5">
         <div className="experience-container mb-10 flex-1">
           <header className="flex max-[532px]:flex-col">
-            <h1 className="font-semibold text-lg text-stone-100">Goitdev Technologies OPC Private Limited</h1>
+            <h1 className="font-semibold text-lg text-stone-100">Goitdev Technologies</h1>
             <div className="line"></div>
             <div className="experience-date font-medium text-neutral-500">Jan 2024 - Mar 2024</div>
           </header>
