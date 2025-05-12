@@ -34,7 +34,7 @@ const ProjectsCard = ({ title, desc, img, live, github, tech }) => {
       <div className="project-ss flex grow items-center">
         <img
           src={img}
-          alt="first project ss"
+          alt="project screenshot"
           className="images object-cover border-[0.2rem] border-solid border-[rgba(255,255,255,0.68)] rounded-[20px]"
         />
       </div>
