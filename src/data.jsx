@@ -21,6 +21,15 @@ export const projects = [
   },
   {
     id: nanoid(),
+    title: 'Templique',
+    desc: 'Templique is a form-based job application email generator built with React and Tailwind CSS. It allows users to input their details to generate a dynamic, professional email for HR outreach. The template renders on submission, with additional features including a reset button to clear the form at any time, copy-to-clipboard functionality, and a responsive, mobile-first design.',
+    img: '/assets/p5.png',
+    live: 'https://templique.netlify.app/',
+    github: 'https://github.com/ashishraj-dev/templique',
+    tech: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React', 'React Hooks'],
+  },
+  {
+    id: nanoid(),
     title: 'Wisewords',
     desc: 'An Advice Generator Web App built with React that fetches random advice from an external API, featuring a dynamic view counter, reusable components, and a responsive, mobile-first UI with smooth transitions and custom branding.',
     img: '/assets/p2.png',
