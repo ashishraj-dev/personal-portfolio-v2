@@ -1,99 +1,3 @@
-// import { links } from '../data';
-
-// const Navbar = () => {
-//   return (
-//     <nav className="bg-white/5 text-stone-50 fixed w-full z-100 backdrop-blur-[3px] border-b border-white/10 shadow-md text-shadow-lg/250">
-//       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-4 justify-between">
-//         <img src="/src/assets/AR-Logo-w.png" alt="AR-logo-image" className="w-20 h-12 drop-shadow-xl/300" />
-//         <div className="flex gap-x-4 text-stone-50">
-//           {links.map(link => {
-//             const { id, href, text } = link;
-//             return (
-//               <a
-//                 key={id}
-//                 href={href}
-//                 className="lowercase text-lg font-normal tracking-wide hover:text-stone-400 active:text-zinc-300 hover:scale-115 active:scale-115 duration-300 text-stone-50"
-//               >
-//                 {text}
-//               </a>
-//             );
-//           })}
-//         </div>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
-
-// import { links } from '../data';
-// import { useState } from 'react';
-// import { HiMenuAlt1 } from 'react-icons/hi';
-
-// const Navbar = () => {
-//   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-//   const toggleMenu = () => {
-//     setIsMenuOpen(!isMenuOpen);
-//   };
-
-//   const closeMenu = () => {
-//     setIsMenuOpen(false);
-//   };
-
-//   return (
-//     <nav className="bg-white/5 text-stone-50 fixed w-full z-50 backdrop-blur-[3px] border-b border-white/10 shadow-md text-shadow-lg/250">
-//       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-4 justify-between">
-//         <img src="/src/assets/AR-Logo-w.png" alt="AR-logo-image" className="w-20 h-12 drop-shadow-xl/300" />
-//         {/* Desktop Links */}
-//         <div className="hidden sm:flex gap-x-4 text-stone-50">
-//           {links.map(link => {
-//             const { id, href, text } = link;
-//             return (
-//               <a
-//                 key={id}
-//                 href={href}
-//                 className="lowercase text-lg font-normal tracking-wide hover:text-stone-400 active:text-zinc-300 hover:scale-115 active:scale-115 duration-300 text-stone-50"
-//               >
-//                 {text}
-//               </a>
-//             );
-//           })}
-//         </div>
-//       </div>
-
-//       {/* Hamburger menu for mobile */}
-//       <div className="flex sm:hidden">
-//         <button onClick={toggleMenu} className="text-3xl focus:outline-none">
-//           <HiMenuAlt1 />
-//         </button>
-//       </div>
-
-//       {isMenuOpen && (
-//         <div
-//           onClick={closeMenu}
-//           className="fixed h-max sm:hidden inset-0 bg-black/80 flex flex-col items-center justify-center space-y-8 text-2xl z-40"
-//         >
-//           {links.map(link => {
-//             const { id, href, text } = link;
-//             return (
-//               <a
-//                 key={id}
-//                 href={href}
-//                 className="text-white hover:text-stone-400 active:text-zinc-300 duration-300"
-//               >
-//                 {text}
-//               </a>
-//             );
-//           })}
-//         </div>
-//       )}
-//     </nav>
-//   );
-// };
-
-// export default Navbar;
-
 import { useState, useRef, useEffect } from 'react';
 import { links } from '../data';
 import { HiMenuAlt1 } from 'react-icons/hi';
@@ -207,3 +111,99 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// import { links } from '../data';
+
+// const Navbar = () => {
+//   return (
+//     <nav className="bg-white/5 text-stone-50 fixed w-full z-100 backdrop-blur-[3px] border-b border-white/10 shadow-md text-shadow-lg/250">
+//       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-4 justify-between">
+//         <img src="/src/assets/AR-Logo-w.png" alt="AR-logo-image" className="w-20 h-12 drop-shadow-xl/300" />
+//         <div className="flex gap-x-4 text-stone-50">
+//           {links.map(link => {
+//             const { id, href, text } = link;
+//             return (
+//               <a
+//                 key={id}
+//                 href={href}
+//                 className="lowercase text-lg font-normal tracking-wide hover:text-stone-400 active:text-zinc-300 hover:scale-115 active:scale-115 duration-300 text-stone-50"
+//               >
+//                 {text}
+//               </a>
+//             );
+//           })}
+//         </div>
+//       </div>
+//     </nav>
+//   );
+// };
+
+// export default Navbar;
+
+// import { links } from '../data';
+// import { useState } from 'react';
+// import { HiMenuAlt1 } from 'react-icons/hi';
+
+// const Navbar = () => {
+//   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+//   const toggleMenu = () => {
+//     setIsMenuOpen(!isMenuOpen);
+//   };
+
+//   const closeMenu = () => {
+//     setIsMenuOpen(false);
+//   };
+
+//   return (
+//     <nav className="bg-white/5 text-stone-50 fixed w-full z-50 backdrop-blur-[3px] border-b border-white/10 shadow-md text-shadow-lg/250">
+//       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-4 justify-between">
+//         <img src="/src/assets/AR-Logo-w.png" alt="AR-logo-image" className="w-20 h-12 drop-shadow-xl/300" />
+//         {/* Desktop Links */}
+//         <div className="hidden sm:flex gap-x-4 text-stone-50">
+//           {links.map(link => {
+//             const { id, href, text } = link;
+//             return (
+//               <a
+//                 key={id}
+//                 href={href}
+//                 className="lowercase text-lg font-normal tracking-wide hover:text-stone-400 active:text-zinc-300 hover:scale-115 active:scale-115 duration-300 text-stone-50"
+//               >
+//                 {text}
+//               </a>
+//             );
+//           })}
+//         </div>
+//       </div>
+
+//       {/* Hamburger menu for mobile */}
+//       <div className="flex sm:hidden">
+//         <button onClick={toggleMenu} className="text-3xl focus:outline-none">
+//           <HiMenuAlt1 />
+//         </button>
+//       </div>
+
+//       {isMenuOpen && (
+//         <div
+//           onClick={closeMenu}
+//           className="fixed h-max sm:hidden inset-0 bg-black/80 flex flex-col items-center justify-center space-y-8 text-2xl z-40"
+//         >
+//           {links.map(link => {
+//             const { id, href, text } = link;
+//             return (
+//               <a
+//                 key={id}
+//                 href={href}
+//                 className="text-white hover:text-stone-400 active:text-zinc-300 duration-300"
+//               >
+//                 {text}
+//               </a>
+//             );
+//           })}
+//         </div>
+//       )}
+//     </nav>
+//   );
+// };
+
+// export default Navbar;

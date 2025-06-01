@@ -12,12 +12,30 @@ export const links = [
 export const projects = [
   {
     id: nanoid(),
+    title: 'My Portfolio',
+    desc: 'A personal portfolio website showcasing frontend projects and skills. Features a responsive, mobile-first layout with smooth animations, a curated projects section with summaries, visuals, and links, a glassmorphism-style navigation bar, an interactive contact form integrated using EmailJS, and a marquee effect for highlighting skills — all designed for a clean, professional user experience.',
+    img: '/assets/p7.png',
+    live: 'https://ashishraj1.netlify.app/',
+    github: 'https://github.com/ashishraj-dev/personal-portfolio-v2',
+    tech: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React', 'React Hooks', 'EmailJS'],
+  },
+  {
+    id: nanoid(),
     title: 'Factzzz',
     desc: 'A Fact-Sharing Web Application that allows users to explore, submit, and vote on interesting facts, with category-based filtering, voting mechanisms, and a dispute-flagging feature.',
     img: '/assets/p1.png',
     live: 'https://factzzz.netlify.app',
     github: 'https://github.com/ashishraj-dev/react-factzzz',
     tech: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React', 'Supabase'],
+  },
+  {
+    id: nanoid(),
+    title: 'ShopTray',
+    desc: 'A responsive React-based product catalog app that fetches data from the Fake Store API. It features dynamic product listings, detailed views, and full routing with custom 404 pages. Built with React Router, Axios, Tailwind CSS, and DaisyUI, it uses React hooks for state management and a mobile-first grid layout for seamless browsing across devices.',
+    img: '/assets/p6.png',
+    live: 'https://shoptray.netlify.app/',
+    github: 'https://github.com/ashishraj-dev/shoptray',
+    tech: ['JavaScript (ES6+)', 'React', 'React Router', 'Axios', 'Tailwind CSS', 'Daisy UI'],
   },
   {
     id: nanoid(),
