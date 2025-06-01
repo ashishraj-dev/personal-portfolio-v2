@@ -40,7 +40,7 @@ const Hero = () => {
               <FaTwitterSquare className="glow h-8 w-8 text-zinc-950 hover:text-white duration-300" />
             </a>
             <a
-              href="https://drive.google.com/uc?export=download&id=11SkE4lDjo0EFuVxvi8C9af1dIkighXos"
+              href="https://drive.google.com/uc?export=download&id=1xdauhp6l-xgyE-LuJp18AaEL4hSGJp0P"
               download
               className="glow-2 font-medium inline-flex items-center gap-1 text-stone-50 uppercase rounded-4xl active:-translate-y-2 focus:bg-zinc-100 focus:text-black duration-300 bg-white-500 border-white px-2"
             >
