@@ -22,6 +22,7 @@ const Skills = () => {
             <span>CSS3</span>
             <span>JavaScript</span>
             <span>React.js</span>
+            <span>Tailwind CSS</span>
             <span>Supabase</span>
             <span>Sql</span>
             <span>Bootstrap</span>
