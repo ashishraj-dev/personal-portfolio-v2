@@ -20,6 +20,7 @@ const Skills = () => {
           >
             <span>HTML5</span>
             <span>CSS3</span>
+            <span>SCSS</span>
             <span>JavaScript</span>
             <span>React.js</span>
             <span>Tailwind CSS</span>

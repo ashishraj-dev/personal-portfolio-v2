@@ -9,6 +9,30 @@ const Experience = () => {
       <article className="flex justify-center items-center m-auto w-1/2 max-lg:w-full max-lg:pl-10 px-5">
         <div className="experience-container mb-10 flex-1">
           <header className="flex max-[532px]:flex-col">
+            <h1 className="font-semibold text-lg text-stone-100">Freelance</h1>
+            <div className="line"></div>
+            <div className="experience-date font-medium text-neutral-500">July 2025 - Aug 2025</div>
+          </header>
+          <div className="font-medium text-neutral-500 mb-3">Freelance Web Developer (Remote)</div>
+          <div className="text-neutral-500">
+            <ul className="font-medium">
+              <li className="list-disc">
+                Converted PDF resume templates into pixel-perfect HTML/SCSS layouts with A4 persistence, page
+                breaks, and precise print formatting.
+              </li>
+              <li className="list-disc">
+                Developed clean, reusable code from detailed designs, ensuring cross-browser compatibility.
+              </li>
+              <li className="list-disc">
+                Worked with the client, incorporated feedback, and delivered high-quality work on time.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      <article className="flex justify-center items-center m-auto w-1/2 max-lg:w-full max-lg:pl-10 px-5">
+        <div className="experience-container mb-10 flex-1">
+          <header className="flex max-[532px]:flex-col">
             <h1 className="font-semibold text-lg text-stone-100">Goitdev Technologies</h1>
             <div className="line"></div>
             <div className="experience-date font-medium text-neutral-500">Jan 2024 - Mar 2024</div>
