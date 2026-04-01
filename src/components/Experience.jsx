@@ -9,9 +9,46 @@ const Experience = () => {
       <article className="flex justify-center items-center m-auto w-1/2 max-lg:w-full max-lg:pl-10 px-5">
         <div className="experience-container mb-10 flex-1">
           <header className="flex max-[532px]:flex-col">
+            <h1 className="font-semibold text-lg text-stone-100">VRND Business Solutions</h1>
+            <div className="line"></div>
+            <div className="experience-date font-medium text-neutral-500">Jan 2026 - Present</div>
+          </header>
+          <div className="font-medium text-neutral-500 mb-3">Frontend Developer (Hyderabad, Onsite)</div>
+          <div className="text-neutral-500">
+            <ul className="font-medium">
+              <li className="list-disc">
+                Built and deployed responsive web applications using React.js from Figma designs with email
+                integration and cross-browser compatibility.
+              </li>
+              <li className="list-disc">
+                Developed e-commerce frontend in React.js based on client designs, collaborating with backend
+                teams for smooth functionality.
+              </li>
+              <li className="list-disc">
+                Designed and optimized visual assets including custom logos, carousel banners, and social
+                media posters, ensuring brand consistency across platforms.
+              </li>
+              <li className="list-disc">
+                Optimized performance using lazy loading, caching, and image compression to improve load
+                speed.
+              </li>
+              <li className="list-disc">
+                Applied SEO best practices and WCAG accessibility standards to enhance visibility and
+                usability.
+              </li>
+              <li className="list-disc">
+                Leveraged AI tools to accelerate development and improve productivity.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      <article className="flex justify-center items-center m-auto w-1/2 max-lg:w-full max-lg:pl-10 px-5">
+        <div className="experience-container mb-10 flex-1">
+          <header className="flex max-[532px]:flex-col">
             <h1 className="font-semibold text-lg text-stone-100">Freelance</h1>
             <div className="line"></div>
-            <div className="experience-date font-medium text-neutral-500">July 2025 - Aug 2025</div>
+            <div className="experience-date font-medium text-neutral-500">July 2025 - Oct 2025</div>
           </header>
           <div className="font-medium text-neutral-500 mb-3">Freelance Web Developer (Remote)</div>
           <div className="text-neutral-500">
@@ -25,6 +62,10 @@ const Experience = () => {
               </li>
               <li className="list-disc">
                 Worked with the client, incorporated feedback, and delivered high-quality work on time.
+              </li>
+              <li className="list-disc">
+                Designed creative posters, banners, and a responsive landing page website to enhance brand
+                presentation and user engagement.
               </li>
             </ul>
           </div>

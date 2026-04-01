@@ -30,6 +30,7 @@ const Skills = () => {
             <span>Git/Github</span>
             <span>Photoshop</span>
             <span>Illustrator</span>
+            <span>Canva</span>
           </Marquee>
         </div>
       </section>
